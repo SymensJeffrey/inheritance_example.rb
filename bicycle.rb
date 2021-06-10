@@ -28,7 +28,12 @@ class Bike < Car
 end
 
 bike1 = Bike.new
-p bike1.accelerate
+# p bike1.accelerate
 
 car1 =Car.new
-p car1.accelerate
+# p car1.accelerate
+
+p car1.honk_horn
+# p car1.ring_bell
+
+p bike1.ring_bell
